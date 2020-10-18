@@ -1,0 +1,77 @@
+body {
+  background-color: #a0a0a0;
+  color: #000;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+h6 {
+  margin: 0.6rem 0 0rem 0;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mw-resume {
+  font-family: Nunito, Arial, sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+//  -webkit-box-shadow: 0 0 20px 2px #fff;
+//  box-shadow: 0 0 20px 2px #fff;
+  border-radius: 2px;
+  background-color: white;
+  padding: 3rem;
+}
+
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.title {
+  min-width: 50%;
+}
+
+.title > h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.title > h5 {
+  margin: 0 0 1rem 0.2rem;
+  padding: 0;
+  color: #666;
+}
+
+.contact {
+  min-width: 50%;
+  text-align: right;
+}
+
+td {
+  vertical-align: top;
+}
+
+td.row-label {
+  min-width: 10rem;
+  font-weight: bold;
+}
